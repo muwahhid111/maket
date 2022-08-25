@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.orange-button span{ 
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.orange-button span:hover{
+    color: #fff;
+    background-color: #F7941E;
+}
+
+
+/* intro */
+
+.intro{
+    background-color: #f1f1f2;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 0 20px;
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro__button span{
+    padding: 17px 30px;
+    /* height: 22px; */
+    text-transform: uppercase;
+
+}
+
+.intro-headline{
+    width: 50%;
+    padding-left: 200px;
+}
+
+.intro-headline h1{
+    font-size: 56px;
+    font-weight: 400;
+    max-width: 430px;
+    margin-bottom: 50px;
+}
+
+.intro-headline p{
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 430px;
+    margin-bottom: 80px;
+    line-height: 28px;
+    max-width: 420px;
+}
+
+.intro-headline-img{
+    width: 50%;
+}
+
+
+/* how we work */
+
+.how-we-work{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+
+.how-we-work__text{
+    /* margin: 0 170px 0 90px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    padding-left: 100px;
+}
+
+.how-we-work__text h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.how-we-work__text p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 60px;
+    max-width: 440px;
+}
+
+.how-we-work__button span{
+    padding: 18px 50px;
+    text-transform: uppercase;
+}
+
+.how-we-work__image{
+    width: 50%;
+}
+
+
+/* gifts */
+
+.gifts{
+    padding: 100px 0 140px 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.gifts__headline{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.gifts__headline h1{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.gifts__headline p{
+    font-weight: 400;
+}
+
+.gifts-cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}   
+
+.gift-card{
+    background-color: #FAFAFA;
+    transition: .2s;
+}
+
+.gift-card:hover{
+    filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+    background-color: #ffffff;
+
+}
+
+.gift-card-text{
+    padding: 25px;
+    color: red;
+}
+
+.gift-card h3{
+    margin: 0 0 80px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.see-more{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    width: fit-content;
+}
+
+/* ready-block */
+
+.ready-block{
+    background-color: #F7941E;
+    padding: 80px 0;
+}
+
+.ready-block-inner{
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ready-block-headline h1{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.ready-block-headline h2{
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.ready-block-buttons{
+    width: 415px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.black-button span{
+    border: 1px solid #231F20;
+    border-radius: 5px;
+    padding: 14px 35px;
+    text-transform: uppercase;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.black-button span:hover{
+    background-color: #231F20;
+    color: #fff;
+}
+
+
+.blogs{
+    padding: 90px 0 80px;
+}
+
+.blogs__inner{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.blogs__headline{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.blogs__headline h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.blogs__headline p{
+    font-weight: 300;
+}
+
+.blogs__intro{
+    display: flex;
+    align-items: center;
+    background-color: #231F20;
+    margin-bottom: 40px;
+}
+
+.blogs-intro-text{
+    max-width: 500px;
+    margin-left: 80px;
+}
+
+.blogs-intro-author{
+    font-size: 14px;
+    color: #fff;
+}
+
+.blogs-intro-text h1{
+    margin: 40px 0 80px 0;
+    font-size: 48px;
+    color: #fff;
+}
+
+.blogs-intro-text span{
+    color: #fff;
+}
+
+.blogs-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-card{
+    padding: 50px;
+    width: 570px;
+    transition: .2s;
+}
+
+.blog-card:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+
+}
+
+.blog-card h1{
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.blog-card p{
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.blog-card span{
+    font-size: 14px;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: #FAFAFA;
+}
+
+.footer__inner{
+    padding: 115px 0 40px;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    width: 615px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-nav a{
+    font-weight: 600;
+}
+
+.footer-line{
+    background-color: #000000;
+    width: 1000px;
+    height: 1px;
+    margin: 50px auto 55px;
+}
+
+.social__inner{
+    text-align: center;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.social-icon{
+    width: 40px;
+}
+
+.privacy{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.privacy p{
+    font-size: 14px;
+}
